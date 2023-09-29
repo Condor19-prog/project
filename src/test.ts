@@ -1,4 +1,3 @@
-export const fn = (arg: number): string => {
-    console.log('asdsd')
-    return 'jopa'
+export const fn = () => {
+    console.log('asdsdasdasd')
 }
