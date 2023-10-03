@@ -14,7 +14,12 @@
     //если либа не имеет default import лоадеры вроде ts-loader создают автоматически вместо такого импорта import * as React
     "allowSyntheticDefaultImports": true,
     //для обсалютного импорта
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./src/*"
+      ]
+    }
   },
   "ts-node": {
     "compilerOptions": {
