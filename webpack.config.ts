@@ -10,7 +10,8 @@ export default (env: BuildEnv) => {
         src: path.resolve(__dirname, 'src')
     }
 
-    const mode: BuildMode = env.mode || 'development'
+    const mode: BuildMode = 'development'
+
     const PORT = env.port || 3000
 
     const isDev = mode === 'development'
