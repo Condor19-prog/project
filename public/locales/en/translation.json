@@ -2,5 +2,7 @@
   "test": "Test example",
   "click": "Click",
   "language": "Language",
-  "notFound": "Page not found"
+  "notFound": "Page not found",
+  "somethingWentWrong": "Something went wrong",
+  "reloadPage": "Reload page"
 }
